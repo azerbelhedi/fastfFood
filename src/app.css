@@ -1,0 +1,15 @@
+*{
+    margin : 0 ;
+    padding : 0 ;
+}
+
+element{
+    --main-pic : "https://www.omnihotels.com/-/media/images/hotels/bospar/restaurants/bospar-omni-parker-house-parkers-restaurant-1170.jpg" ;
+    --logo : "http://www.planetfoodcornichesousse.com/templates/ayo-technology/images/logo1.png" ;
+}
+
+body{
+    background-image: url("http://s1.1zoom.me/big0/68/Fast_food_Pizza_484412.jpg") ;
+    background-size: cover ;
+    background-attachment: fixed ; /* this line is what makes it cool */
+}
