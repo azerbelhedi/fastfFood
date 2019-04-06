@@ -9,8 +9,12 @@ class App extends Component {
     return (
       <div>
         <ThemeSwitcher/>
-        <div><Section1 /></div>
-        <div><Section2 /></div>
+        <div id = "section1">
+          <Section1/>
+        </div>
+        <div id = "section2">
+          <Section2 />
+        </div>
         <div>section3</div>
         <div>section4</div>
       </div>

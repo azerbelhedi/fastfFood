@@ -8,7 +8,6 @@ const Title = () => {
             <center>
                 <div className = "logo"></div>
             </center>
-            <center className = "title">Planet Food</center>
         </div>
     )
 }
@@ -17,7 +16,7 @@ class Section1 extends Component{
     render(){
         return(
             <div className = "section1">
-                {/* <Title/> */}
+                <Title/>
                 <Slide/>
             </div>
         )

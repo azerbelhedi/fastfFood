@@ -1,28 +1,46 @@
 import React , { Component } from 'react' ;
 import { Navbar } from 'react-bootstrap' ;
 import { Nav } from 'react-bootstrap' ;
-import { NavDropdown} from 'react-bootstrap' ;
-import { Form } from 'react-bootstrap' ;
-import { FormControl } from 'react-bootstrap' ;
-import { Button } from 'react-bootstrap' ;
+import Container from 'react-bootstrap/Container' ;
+import './nav.css' ;
+
+
+const Title = () => {
+    return(
+        <div>
+            <center>
+                <div className = "logo2"></div>
+            </center>
+        </div>
+    )
+}
+
 
 class NavBar extends Component {
     render(){
         return(
             <div>
-                <center>
-                    <Navbar style = {{backgroundColor : "#2b2828"}} bg="" expand="lg" fixed = "top">
-                        <Navbar.Brand href="#home">React-Bootstrap</Navbar.Brand>
+                <Container>
+                    <Navbar className = "nav"  bg="" expand="lg" fixed = "top" collapseOnSelect = {true}>
+                        <Navbar.Brand href="top">
+                            <Title/> 
+                        </Navbar.Brand>
                         <Navbar.Toggle aria-controls="basic-navbar-nav" />
                         <Navbar.Collapse id="basic-navbar-nav">
                             <Nav className="mr-auto">
-                                <Nav.Link href="#home">Home</Nav.Link>
-                                <Nav.Link href="#link">Link</Nav.Link>
-                                <Nav.Link href = "#best-food"> Best Food</Nav.Link>
+                                <Nav.Link href="#section1">
+                                    <h3 className = "nav-item"> Home </h3>
+                                </Nav.Link>
+                                <Nav.Link href="#section2" className = "nav-item">
+                                    <h3 className = "nav-item"> Food </h3>
+                                </Nav.Link>
+                                <Nav.Link href = "#best-food" className = "nav-item">
+                                    <h3 className = "nav-item"> Coffee </h3>
+                                </Nav.Link>
                             </Nav>
                         </Navbar.Collapse>
                     </Navbar>
-                </center>
+                </Container>
             </div>
         )
     }

@@ -26,7 +26,7 @@ class Slide extends Component{
         return(
             <div>
                 <center>
-                    <h1 className = "title slide"> Best <span> {this.state.words[this.state.index]} </span> </h1>
+                    <h1 className = "slide"> Best <br/> <span> {this.state.words[this.state.index]} </span> </h1>
                 </center>
             </div>
         )

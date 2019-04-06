@@ -10,22 +10,45 @@
 .title{
     font-family: sans-serif ;
     font-weight :bolder;
-    font-size: 10vh ;
+    font-size: 20vh ;
     color : rgb(245, 173, 17);
     text-shadow: 1px 1px 5px rgb(65, 61, 61) ;
     padding-top : 50px ;
 }
 
 .slide{
-    font-size: 50px ;
+    font-size: 70px ;
+    padding-top : 20vh ;
+    font-family: sans-serif ;
+    font-weight :bolder;
+    color : rgb(245, 173, 17);
+    text-shadow: 1px 1px 5px rgb(65, 61, 61) ;
 }
 
 .logo{
     position: relative;
-    top :60px;
+    top :80px;
     height :18vh;
-    width :500px;
+    width :80vh;
     background-image:url("http://www.planetfoodcornichesousse.com/templates/ayo-technology/images/logo1.png") ;
-    background-size: 500px ;
+    background-size: contain ;
     background-repeat: no-repeat ;
+}
+
+@media only screen and (max-width : 600px){
+    .logo{
+        width : 50vh ;
+    }
+}
+
+
+.logo2{
+    position: relative;
+    top :5px;
+    height :9vh;
+    width :200px;
+    background-image:url("http://www.planetfoodcornichesousse.com/templates/ayo-technology/images/logo1.png") ;
+    background-size: contain ;
+    background-repeat: no-repeat ;
+    margin :0;
 }
