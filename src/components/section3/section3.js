@@ -1,17 +1,16 @@
 import React , { Component } from 'react' ;
-import './section2.css' ;
-import  Subnav  from './subnav' ;
+import './section3.css' ;
 import Cards from './cards' ;
 
 const Title2 = () => {
     return (<div>
         <center>
-            <h1 className = "sub-title"> Food </h1>
+            <h1 className = "sub-title"> Coffee </h1>
         </center>
     </div>)
 }
 
-class Section2 extends Component{
+class Section3 extends Component{
     constructor(props){
         super(props) ;  
         this.state = {
@@ -20,13 +19,12 @@ class Section2 extends Component{
     }
     render(){
         return(
-            <div className = "section2">
+            <div className = "section3">
                 <Title2/>
-                <Subnav/>
                 <Cards/>
             </div>
         )
     }
 }
 
-export default Section2 ;
+export default Section3 ;
