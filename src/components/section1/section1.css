@@ -17,12 +17,13 @@
 }
 
 .slide{
-    font-size: 70px ;
+    font-size: 100px;
     padding-top : 20vh ;
-    font-family: sans-serif ;
-    font-weight :bolder;
-    color : rgb(245, 173, 17);
-    text-shadow: 1px 1px 5px rgb(65, 61, 61) ;
+    font-family:cursive ;
+    font-weight: bolder ;
+    color :white;
+    text-shadow: 1px 1px 5px black ;
+
 }
 
 .logo{

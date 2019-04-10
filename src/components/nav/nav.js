@@ -31,6 +31,9 @@ class NavBar extends Component {
                                 <Nav.Link href="#section1">
                                     <h3 className = "nav-item"> Home </h3>
                                 </Nav.Link>
+                                <Nav.Link href="#section6">
+                                    <h3 className = "nav-item"> Today </h3>
+                                </Nav.Link>
                                 <Nav.Link href="#section2" className = "nav-item">
                                     <h3 className = "nav-item"> Food </h3>
                                 </Nav.Link>
@@ -39,6 +42,15 @@ class NavBar extends Component {
                                 </Nav.Link>
                                 <Nav.Link href = "#section4" className = "nav-item">
                                     <h3 className = "nav-item"> Map </h3>
+                                </Nav.Link>
+                                <Nav.Link href = "#section5" className = "nav-item">
+                                    <h3 className = "nav-item"> Staff </h3>
+                                </Nav.Link>
+                                <Nav.Link href = "#section7" className = "nav-item">
+                                    <h3 className = "nav-item"> Inside </h3>
+                                </Nav.Link>
+                                <Nav.Link href = "#section8" className = "nav-item">
+                                    <h3 className = "nav-item"> Delivrey </h3>
                                 </Nav.Link>
                             </Nav>
                         </Navbar.Collapse>

@@ -1,0 +1,37 @@
+.grid-container{
+    height :90vh;
+    width :50vw;
+}
+
+.item1{grid-area: a ; background-color :blue;} 
+.item2{grid-area: b ;} 
+.item3{grid-area: c ;} 
+.item4{grid-area: d ;} 
+.item5{grid-area: e ;} 
+.item6{grid-area: f ;} 
+.item7{grid-area: g ;} 
+ 
+.grid-container{
+    display : grid ; 
+    grid-template-areas: 
+    'a a b' 
+    'c d e'
+    'f g g' ;
+    grid-gap: 10px ;
+}
+
+.section7{
+    background-image: url("https://www.wallpaperup.com/uploads/wallpapers/2018/02/01/1199275/5db621453e2ca2a3561652dc29531cfa-700.jpg") ;
+    background-attachment: fixed ;
+    background-size :cover;
+    padding-bottom: 20px ;
+    padding-top :100px;
+}
+
+.inside-title{
+    font-size: 40px ;
+    font-family:cursive ;
+    font-weight: bolder ;
+    color :white;
+    text-shadow: 1px 1px 5px black ;
+}

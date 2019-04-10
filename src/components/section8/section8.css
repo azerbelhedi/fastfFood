@@ -1,0 +1,19 @@
+.delivery{
+    height :30vh;
+}
+
+.delivery-main{
+    margin-bottom: 100px ;
+}
+
+.delivery-title{
+    font-size: 40px ;
+    font-family:cursive ;
+    font-weight: bolder ;
+    color :white;
+    text-shadow: 1px 1px 5px black ;
+}
+
+.section8{
+    padding-top :100px;
+}
