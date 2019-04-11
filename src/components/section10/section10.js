@@ -1,44 +1,20 @@
-import React from "react";
-import { MDBCol, MDBContainer, MDBRow, MDBFooter } from "mdbreact";
+import React , { Component } from 'react' ;
+import './section10.css' ;
+import Owner from './owner.js' ;
+import Maker from './maker.js' ;
 
-const Footer = () => {
-  return (
-    <MDBFooter color="blue" className="font-small pt-4 mt-4">
-      <MDBContainer fluid className="text-center text-md-left">
-        <MDBRow>
-          <MDBCol md="6">
-            <h5 className="title">Footer Content</h5>
-            <p>
-              Here you can use rows and columns here to organize your footer
-              content.
-            </p>
-          </MDBCol>
-          <MDBCol md="6">
-            <h5 className="title">Links</h5>
-            <ul>
-              <li className="list-unstyled">
-                <a href="#!">Link 1</a>
-              </li>
-              <li className="list-unstyled">
-                <a href="#!">Link 2</a>
-              </li>
-              <li className="list-unstyled">
-                <a href="#!">Link 3</a>
-              </li>
-              <li className="list-unstyled">
-                <a href="#!">Link 4</a>
-              </li>
-            </ul>
-          </MDBCol>
-        </MDBRow>
-      </MDBContainer>
-      <div className="footer-copyright text-center py-3">
-        <MDBContainer fluid>
-          &copy; {new Date().getFullYear()} Copyright: <a href="https://www.MDBootstrap.com"> MDBootstrap.com </a>
-        </MDBContainer>
+class Footer extends Component{
+  render(){
+    return(
+      <div className = "footer">
+        <div className = "footer-flex">
+          <Owner/>
+          <Maker/>
+        </div>
+        <div className = "copyright"> &copy; 2019 Copyright Ploydev</div>
       </div>
-    </MDBFooter>
-  );
+    )
+  }
 }
 
-export default Footer;
+export default Footer ;

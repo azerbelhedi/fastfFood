@@ -1,0 +1,43 @@
+.footer{
+    background-color: rgb(1, 15, 27) ;
+    height :50vh;
+}
+
+.footer-flex{
+    display: flex ;
+}
+
+.maker h1{
+    flex :1;
+    color :white;
+    font-weight: bold ;
+    font-size: 17px ;
+    font-family: cursive ;
+}
+
+
+.maker{
+    padding-top :40px;
+    padding-right :40px;
+}
+
+
+.owner{
+    flex : 3;
+    background-image:url("http://www.planetfoodcornichesousse.com/templates/ayo-technology/images/logo1.png") ;
+    background-size: 30vw ;
+    background-repeat: no-repeat ;
+    background-position-x: center ;
+    background-position-y: center ;
+    height :35vh;
+}
+
+.copyright{
+    color :white;
+    font-weight: bold ;
+    font-size: 15px ;
+    font-family: cursive ;
+    width :fit-content;
+    margin-left :auto;
+    margin-right :auto;
+}
