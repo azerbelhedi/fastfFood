@@ -8,6 +8,8 @@ import Section5 from './components/section5/section5' ;
 import Section6 from './components/section6/sectio6' ;
 import Section7 from './components/section7/section7' ;
 import Section8 from './components/section8/section8' ;
+import Section9 from './components/section9/section9' ;
+import Footer from './components/section10/section10' ;
 
 import ThemeSwitcher from './components/nav/nav' ;
 
@@ -39,6 +41,12 @@ class App extends Component {
         </div>
         <div id = "section8">
           <Section8/>
+        </div>
+        <div id = "section9">
+          <Section9 />
+        </div>
+        <div id = "section10">
+          <Footer/>
         </div>
       </div>
     );

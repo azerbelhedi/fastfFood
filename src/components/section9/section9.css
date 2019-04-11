@@ -1,0 +1,72 @@
+.section9{
+    padding-top :50px;
+    min-height :100vh;
+    background-image :url("http://wallpapercraft.website/uploads/posts/3204124-beverage_bolognese_cuisine_cutlery_delicious_dinner_dish_drink_eating_food_gourmet_healthy_italian_lunch_meal_mediterranean-food_napkin_noodles_pasta_plate_restaurant_serving_supper_table_tasty.jpg");
+    background-size: cover ;
+    background-attachment: fixed ;
+    padding-bottom: 20px ;
+}
+
+.section9-title{
+    font-size: 40px ;
+    font-family:cursive ;
+    font-weight: bolder ;
+    color :white;
+    text-shadow: 1px 1px 5px black ;
+    margin-bottom: 25px ;
+    width :fit-content;
+    margin-left :auto;
+    margin-right :auto;
+}
+
+.feedback{
+    background-color: rgba(0, 0, 0, 0.5) ;
+    height :75vh;
+    width :50vw;
+    margin-left :50px;
+    padding-left :3vw;
+    padding-top :3vh;
+}
+
+.feedback .block h1{
+    font-family: cursive ;
+    font-size :20px;
+    font-weight :bold;
+    color :white;
+}
+
+.feedback .block input{
+    font-family: cursive ;
+    font-size :16px;
+    font-weight :bold;
+    color :black;
+}
+
+.feedback .block{
+    margin-bottom :5vh;
+}
+
+textarea{
+    resize :none;
+}
+
+.contact{
+    background-color: rgba(0, 0, 0, 0.5) ;
+    height :75vh;
+    width :30vw;
+    margin-left :50px;
+    padding-left :3vw;
+    padding-top :3vh;
+}
+
+.feedback-contact{
+    display :flex;
+}
+
+.submit{
+    width :10vw;
+    border :none;
+    background-color : white ;
+    box-shadow: 1px 1px 5px black ;
+}
+

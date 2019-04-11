@@ -52,6 +52,12 @@ class NavBar extends Component {
                                 <Nav.Link href = "#section8" className = "nav-item">
                                     <h3 className = "nav-item"> Delivrey </h3>
                                 </Nav.Link>
+                                <Nav.Link href = "#section9" className = "nav-item">
+                                    <h3 className = "nav-item"> Feedback </h3>
+                                </Nav.Link>
+                                <Nav.Link href = "#section9" className = "nav-item">
+                                    <h3 className = "nav-item"> Contact </h3>
+                                </Nav.Link>
                             </Nav>
                         </Navbar.Collapse>
                     </Navbar>
