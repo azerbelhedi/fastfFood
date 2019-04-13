@@ -1,0 +1,77 @@
+.today-title h1{
+    font-size: 40px ;
+    font-family:cursive ;
+    font-weight: bolder ;
+    color :white;
+    text-shadow: 1px 1px 5px black ;
+}
+
+.section6{
+    padding-top :50px;
+    min-height: 100vh;
+    background-color: rgba(0, 0, 0, 0.404);
+}
+
+.main-today{
+    display: flex ;
+    width :80vw;
+    margin-left :auto;
+    margin-right :auto;
+    height :70vh;
+    box-shadow: 1px 1px 5px black ;
+}
+
+.pic{
+    flex :3;
+    filter: grayscale(20%) ;
+    transition: 2s ;
+}
+
+.pic:hover{
+    filter : grayscale(0%);
+    transition: 2s ;
+    cursor: pointer;
+}
+
+.data{
+    flex :1;
+    background-color :rgba(226, 225, 225, 0.924);
+    /*background-image: url('https://mfiles.alphacoders.com/637/637170.jpg') ; */
+    background-size: cover ;
+}
+
+
+.pic img{
+    width :100%;
+    height :100%;
+}
+
+.side-food{
+    padding-left :15px;
+}
+
+.food-nature{
+    font-size: 25px ;
+    font-family:cursive ;
+    font-weight: bolder ;
+    color :black;
+}
+
+.food-desc{
+    font-size: 18px ;
+    font-family:cursive ;
+    font-weight:lighter ;
+    color :rgb(71, 71, 71);
+}
+
+.side-food-title{
+    color :black; 
+    font-family: cursive ;
+    font-size :20px;
+    font-weight: bold ;
+    width :max-content;
+    margin-left :auto;
+    margin-right :auto;
+    margin-top: 25px ;
+    margin-bottom: 25px ;
+}

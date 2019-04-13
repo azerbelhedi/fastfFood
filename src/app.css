@@ -9,7 +9,7 @@ element{
 }
 
 body{
-    background-image: url("http://s1.1zoom.me/big0/68/Fast_food_Pizza_484412.jpg") ;
+    background-image: url("http://s1.1zoom.me/big0/68/Fast_food_Pizza_484412.jpg");
     background-size: cover ;
     background-attachment: fixed ; /* this line is what makes it cool */
     background-repeat: repeat-y ;

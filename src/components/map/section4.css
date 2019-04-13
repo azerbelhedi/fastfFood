@@ -1,0 +1,33 @@
+.maps{
+    display: flex ;
+    flex-wrap: inherit;
+    justify-content: center ; /* that's what makes the maps in the center  */
+}
+
+.map{
+    width :auto;
+    /*background-color: red ; */
+    margin-left :30px;
+    margin-right :30px;
+}
+
+.map-title{
+    font-size: 40px ;
+    font-family:cursive ;
+    font-weight: bolder ;
+    color :white;
+    text-shadow: 1px 1px 5px black ;
+}
+
+.section4{
+    background-image : url("https://data.jigsawpuzzle.co.uk/grafika-kids.143/grafika-kids-world-map-in-spices-jigsaw-puzzle-100-pieces.55541-1.fs.jpg"); 
+    background-size: cover ;
+    background-attachment: fixed ;
+    min-height: 100vh ;
+}
+
+.inner-section4{
+    background-color :rgba(0, 0, 0, 0.328);
+    padding-top :40px ;
+    min-height :100vh;
+}
