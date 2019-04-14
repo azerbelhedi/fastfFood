@@ -70,3 +70,30 @@ textarea{
     box-shadow: 1px 1px 5px black ;
 }
 
+@media only screen and (max-width : 600px){
+    .feedback-contact{
+        display :block;
+    }
+    
+    .contact{
+        height :75vh;
+        width :80vw;
+        margin-left :auto;
+        margin-right: auto ;
+        margin-top :10px;
+    }
+
+    .feedback{
+        height :75vh;
+        width :80vw;
+        margin-left: auto ;
+        margin-right: auto ;
+    }
+    
+    textarea{
+        height :25vh;
+        width :70vw;
+    }
+
+    
+}

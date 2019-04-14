@@ -10,6 +10,7 @@ import Gallery from './components/gallery/section7' ;
 import Delivery from './components/delivery/section8' ;
 import FeedbackContact from './components/feedback-contact/section9' ;
 import Footer from './components/footer/section10' ;
+import Nav2 from './components/nav2/nav2' ;
 
 import ThemeSwitcher from './components/nav/nav' ;
 
@@ -17,37 +18,50 @@ class App extends Component {
   render() {
     return (
       <div>
-        <ThemeSwitcher/>
+        {/*<ThemeSwitcher/>*/}
+        <Nav2/>
+         
         <div id = "section1">
           <Home/>
         </div>
+        
         <div id = "section6">
           <Today />
         </div>
+        
         <div id = "section2">
           <ExtraFood />
         </div>
+        
         <div id = "section3">
           <Coffee /> 
         </div>
+        
         <div id = "section4">
           <Map/>
         </div>
+        
         <div id = "section5">
           <Staff />
         </div>
+        
         <div id = "section7">
           <Gallery/>
         </div>
+        
         <div id = "section8">
           <Delivery/>
         </div>
+        
         <div id = "section9">
           <FeedbackContact />
         </div>
+        {/*
         <div id = "section10">
           <Footer/>
         </div>
+        
+        */}
       </div>
     );
   }

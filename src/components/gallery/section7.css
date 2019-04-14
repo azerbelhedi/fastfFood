@@ -35,3 +35,10 @@
     color :white;
     text-shadow: 1px 1px 5px black ;
 }
+
+@media only screen and (max-width : 600px){
+    .grid-container{
+        height :90vh;
+        width :97vw;
+    }
+}

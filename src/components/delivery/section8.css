@@ -33,9 +33,8 @@
     font-size: 25px ;
     padding-left :20px;
     padding-top :5vh;
-    background-color: rgba(0, 0, 0, 0.726) ;
-    opacity :0.6;
-    color :white;
+    background-color: rgba(255, 255, 255, 0.465) ;
+    color : black ;
 }
 
 .delivery-general .pic{
@@ -65,8 +64,8 @@
 
 .delivery:hover{
     cursor: pointer;
-    transform: scale(1.1) ;
-    transition: 0.5s ease-in;
+    transform: scale(1.03) ;
+    transition: 0.2s ease-in;
 }
 
 .delivery .location{
@@ -84,13 +83,55 @@
     font-size :20px;
 }
 
-.delivery .price , .time{
+.delivery .price{
     padding-left :20px;
     font-family: cursive ;
     font-size: 20 ;
     font-weight: bold ;
+    color :rgb(0, 0, 0); 
+}
+
+.delivery .time{
+    padding-left :20px;
+    font-family: cursive ;
+    font-size: 20 ;
+    font-weight: lighter ;
+    color :rgb(46, 45, 45);
 }
 
 .delivery .price{
     font-size: 25px ;
+}
+
+@media only screen and (max-width : 600px){
+    .delivery{
+        width :80vw;
+    }
+
+    .delivery-general{
+        width :90vw;
+        height :max-content;
+        margin-left : auto ;
+        margin-right : auto ;
+        display: block ;
+        box-shadow :1px 1px 5px black ;
+    }
+
+    .delivery-general .delivery-data{
+        height :max-content;
+        flex :4;
+        font-weight: bold ;
+        font-family: cursive ;
+        font-size: 25px ;
+        padding-left :20px;
+        padding-top :5vh;
+        background-color: rgba(255, 255, 255, 0.465) ;
+        color : black ;
+    }
+
+    .delivery-general .pic{
+        flex :1;
+        height :30vh;
+    }
+    
 }

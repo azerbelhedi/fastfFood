@@ -12,7 +12,7 @@ class Cards extends Component{
                     picture : "https://www.gustissimo.it/articoli/drink/caffe-the-e-tisane/caffe-americano.jpg" ,
                     price : 5.000 ,
                     duration : 3 ,
-                    rate : 5
+                    rate : 3
                 } ,
                 {
                     name : "Café Latte" ,

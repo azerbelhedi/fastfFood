@@ -11,11 +11,19 @@ const day = {
     backgroundSize :"cover"
 }
 
+const newDay = {
+    backgroundImage : "linear-gradient(skyblue, yellow)"
+} ;
+
+const newNight = {
+    backgroundImage : "linear-gradient(grey , blue)"
+}
+
 class InnerDelivery extends Component{
     render(){
         return(
             <div className = "delivery">
-                <div className = "location" style = {this.props.data.day ? day : night }>
+                <div className = "location" style = {this.props.data.day ? newDay : newNight }>
                     <div>{this.props.data.location}</div>
                     <div className = "day-mode">{this.props.data.day ? "Day" : "Night" }</div>
                 </div>

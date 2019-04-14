@@ -16,7 +16,7 @@ class Feedback extends Component{
                     </div>
                     <div class = "block">
                         <h1> Message </h1>
-                        <textarea rows = "5" cols = "80"></textarea>
+                        <textarea></textarea>
                     </div>
                     <div class = "block">
                         <input className = "submit" type = "submit"/>

@@ -75,3 +75,21 @@
     margin-top: 25px ;
     margin-bottom: 25px ;
 }
+
+
+@media only screen and (max-width: 600px){
+    .main-today{
+        display: block ;
+    }
+    .side-food-title{
+        margin-top: 0 ;
+    }
+    .main-today{
+        height :max-content;
+    }
+    .food-desc{
+        margin-bottom: 0 ;
+        padding-bottom: 20px ;
+    }
+    
+}

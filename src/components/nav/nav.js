@@ -27,7 +27,7 @@ class NavBar extends Component {
                         </Navbar.Brand>
                         <Navbar.Toggle aria-controls="basic-navbar-nav" />
                         <Navbar.Collapse id="basic-navbar-nav">
-                            <Nav className="mr-auto">
+                            <Nav className="mr-auto expanded-nav">
                                 <Nav.Link href="#section1">
                                     <h3 className = "nav-item"> Home </h3>
                                 </Nav.Link>
