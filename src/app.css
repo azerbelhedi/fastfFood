@@ -8,7 +8,7 @@ element{
     --logo : "http://www.planetfoodcornichesousse.com/templates/ayo-technology/images/logo1.png" ;
 }
 
-body{
+.public-app{
     background-image: url("http://s1.1zoom.me/big0/68/Fast_food_Pizza_484412.jpg");
     background-size: cover ;
     background-attachment: fixed ; /* this line is what makes it cool */

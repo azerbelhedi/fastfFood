@@ -23,7 +23,7 @@ class ExtraFood extends Component{
             <div className = "section2">
                 <Title2/>
                 <Subnav/>
-                <Cards/>
+                <Cards data = {this.props.data}/>
             </div>
         )
     }

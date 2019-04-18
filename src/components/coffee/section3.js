@@ -21,7 +21,7 @@ class Coffee extends Component{
         return(
             <div className = "section3">
                 <Title2/>
-                <Cards/>
+                <Cards data = {this.props.data}/>
             </div>
         )
     }
