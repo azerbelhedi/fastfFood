@@ -2,4 +2,7 @@
     flex : 1 ;
     background-image: linear-gradient( rgb(0, 174, 255) , rgb(101, 190, 231));
     height :100vh;
+    position: fixed ;
+    top :0;
+    right :0;
 }
